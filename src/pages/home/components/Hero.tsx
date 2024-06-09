@@ -6,7 +6,7 @@ import { HeroGridElement } from "./HeroGridElement";
 export function Hero() {
     return (
         <div className="my-32 flex justify-center gap-32">
-            <div className="">
+            <div className="pb-4">
                 <h1 className="text-8xl font-medium">
                     Banking <br />
                     starts here.
@@ -30,7 +30,7 @@ export function Hero() {
                 </span>
             </div>
 
-            <img src={HeroCards} />
+            <img className="h-auto object-cover" src={HeroCards} />
         </div>
     );
 }
