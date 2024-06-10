@@ -1,7 +1,7 @@
 import HeroCards from "../../../assets/HeroCards.svg"
 import { CompareCards } from "../../../components/CompareCards";
+import { IconTextInline } from "../../../components/IconTextInline";
 import { OpenAccount } from "../../../components/OpenAccount";
-import { HeroGridElement } from "./HeroGridElement";
 
 export function Hero() {
     return (
@@ -17,10 +17,10 @@ export function Hero() {
                 </p>
 
                 <div className="mt-8 grid grid-cols-2 gap-x-20 gap-y-4">
-                    <HeroGridElement text="Instant Transfer" />
-                    <HeroGridElement text="Payments worldwide" />
-                    <HeroGridElement text="Saving accounts" />
-                    <HeroGridElement text="100% mobile banking" />
+                    <IconTextInline text="Instant Transfer" bgColor="bg-primaryLight" iconColor="primary" />
+                    <IconTextInline text="Payments worldwide" bgColor="bg-primaryLight" iconColor="primary" />
+                    <IconTextInline text="Saving accounts" bgColor="bg-primaryLight" iconColor="primary" />
+                    <IconTextInline text="100% mobile banking" bgColor="bg-primaryLight" iconColor="primary" />
                 </div>
 
                 <span className="mt-16 flex gap-8">

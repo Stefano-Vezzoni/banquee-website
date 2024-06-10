@@ -1,4 +1,3 @@
-import { Icon } from "@iconify/react/dist/iconify.js";
 import { OneAppGridElement } from "./OneAppGridElement";
 import OneAppImage from "../../../assets/OneAppImage.svg"
 
@@ -18,50 +17,44 @@ export function OneApp() {
 
                 <div className="mt-16 grid grid-cols-2 gap-8">
                     <OneAppGridElement
-                        icon=
-                        {<Icon className='w-7 h-7' icon="ri:flashlight-line" />}
+                        icon="ri:flashlight-line"
                         title="Instant transactions"
                         description="Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis."
                     />
 
                     <OneAppGridElement
-                        icon=
-                        {<Icon className='w-7 h-7' icon="ri:flashlight-line" />}
+                        icon="ri:safe-2-fill"
                         title={`Saving accounts`}
                         description="Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis."
                     />
 
                     <OneAppGridElement
-                        icon=
-                        {<Icon className='w-7 h-7' icon="ri:flashlight-line" />}
+                        icon="ri:smartphone-line"
                         title="Mobile banking"
                         description="Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis."
                     />
 
                     <OneAppGridElement
-                        icon=
-                        {<Icon className='w-7 h-7' icon="ri:flashlight-line" />}
+                        icon="ri:line-chart-line"
                         title="Advanced statistics"
                         description="Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis."
                     />
 
                     <OneAppGridElement
-                        icon=
-                        {<Icon className='w-7 h-7' icon="ri:flashlight-line" />}
+                        icon="ri:bank-card-2-line"
                         title="Virtual cards"
                         description="Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis."
                     />
 
                     <OneAppGridElement
-                        icon=
-                        {<Icon className='w-7 h-7' icon="ri:flashlight-line" />}
+                        icon="ri:wifi-line"
                         title="Contactless payments"
                         description="Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis."
                     />
                 </div>
             </div>
 
-            <img className="" src={OneAppImage} />
+            <img src={OneAppImage} />
         </div>
     );
 }

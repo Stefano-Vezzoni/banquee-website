@@ -4,7 +4,7 @@ export function CompareCards() {
     return (
         <button className="flex gap-2 items-center text-lg text-primary font-medium">
             Compare Cards
-            <Icon className='w-5 h-5' icon="ri:arrow-right-line" />
+            <Icon icon="ri:arrow-right-line" width="20" height="20" />
         </button>
     );
 }

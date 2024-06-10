@@ -28,7 +28,7 @@ export function Header() {
 
                 <button className="inline-flex font-medium p-2 rounded-md hover:bg-slate-50">
                     Compare
-                    <Icon className='w-6 h-6' icon="ri:arrow-drop-down-line" />
+                    <Icon icon="ri:arrow-drop-down-line" width="24" height="24" />
                 </button>
 
                 <button className="inline-flex font-medium p-2 rounded-md hover:bg-slate-50">
@@ -37,7 +37,7 @@ export function Header() {
 
                 <button className="inline-flex font-medium p-2 rounded-md hover:bg-slate-50">
                     Blog
-                    <Icon className='w-6 h-6' icon="ri:arrow-drop-down-line" />
+                    <Icon icon="ri:arrow-drop-down-line" width="24" height="24" />
                 </button>
             </div>
 

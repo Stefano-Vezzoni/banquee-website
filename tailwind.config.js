@@ -16,6 +16,7 @@ export default {
             colors: {
                 primary: '#5BB5A2',
                 primaryLight: '#E8F2EE',
+                muted: '#1A191E'
             },
         },
     },

@@ -1,6 +1,7 @@
 import { Header } from "../../components/Header";
 import { Hero } from "./components/Hero";
 import { OneApp } from "./components/OneApp";
+import { SendAndReceive } from "./components/SendAndReceive";
 
 export function Home() {
     return (
@@ -11,6 +12,8 @@ export function Home() {
                 <Hero />
 
                 <OneApp />
+
+                <SendAndReceive />
             </div>
 
         </div>
