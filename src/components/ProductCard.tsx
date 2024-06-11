@@ -1,35 +1,35 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
 
-export function ProductCard() {
+interface IProductCard {
+    title: string;
+    subtitle: string;
+    price: string;
+    icon: string;
+}
+
+export function ProductCard({ title, subtitle, price, icon }: IProductCard) {
     return (
-        <div className="inline-flex items-center gap-4 p-4 rounded-lg bg-white">
-            <span className="flex items-center justify-center h-12 w-12 rounded-lg bg-primary">
-                <Icon icon="ic:baseline-apple" width="34" height="34" color="white" />
-            </span>
+        <div className="flex items-center justify-between p-4 rounded-lg bg-white">
+            <div className="flex gap-4">
+                <span className="flex items-center justify-center h-12 w-12 rounded-lg bg-primary">
+                    <Icon icon={`${icon}`} width="34" height="34" color="white" />
+                </span>
 
-            <div>
-                <h3 className="text-lg font-medium">
-                    Apple
-                </h3>
+                <div>
+                    <h3 className="text-lg font-medium">
+                        {title}
+                    </h3>
 
-                <p className="font-medium text-muted opacity-50">
-                    Macbook
-                </p>
+                    <p className="font-medium text-muted opacity-50">
+                        {subtitle}
+                    </p>
+                </div>
             </div>
 
+
             <p className="ml-44 text-lg font-medium">
-                -999€
+                -{price}€
             </p>
         </div>
-
-
-        // <div>
-        //     <Icon className="text-white" icon="ic:baseline-apple" />
-        //     <Icon className="text-white" icon="ri:amazon-fill" />
-        //     <Icon className="text-white" icon="pajamas:twitter" />
-        //     <Icon className="text-white" icon="mdi:microsoft" />
-        //     <Icon className="text-white" icon="mdi:dropbox" />
-        //     <Icon className="text-white" icon="ic:baseline-paypal" />
-        // </div>
     );
 }
