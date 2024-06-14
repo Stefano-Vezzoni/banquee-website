@@ -3,8 +3,8 @@ import { IconTextInline } from "../../../components/IconTextInline";
 
 export function SendAndReceive() {
     return (
-        <div className="bg-primaryLight pt-20">
-            <div className="z-10 flex justify-center gap-32 overflow-hidden">
+        <div className="bg-primaryLight pt-20 -mx-36">
+            <div className="z-10 flex px-36 gap-32 overflow-hidden">
                 <div className="pb-32">
                     <h2 className="mt-10 text-6xl font-medium">
                         <p>

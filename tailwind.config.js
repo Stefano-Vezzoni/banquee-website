@@ -16,7 +16,14 @@ export default {
             colors: {
                 primary: '#5BB5A2',
                 primaryLight: '#E8F2EE',
-                muted: '#1A191E'
+                muted: '#1A191E',
+
+                //Organize Your Money Section
+                laptopBg: "#E8F2EE",
+                bicycleBg: "#F1DFDF",
+                planeBg: "#DFE1F1",
+                cameraBg: "#DFEBF1",
+                plusBg: "#F8F8F8"
             },
         },
     },

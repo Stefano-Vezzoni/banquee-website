@@ -3,7 +3,7 @@ import OneAppImage from "../../../assets/OneAppImage.svg"
 
 export function OneApp() {
     return (
-        <div className="flex justify-center items-start space-x-32">
+        <div className="flex items-start justify-between space-x-32">
             <div>
                 <h1 className="flex flex-col text-mHeading1 leading-tight font-medium">
                     <span>

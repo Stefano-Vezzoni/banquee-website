@@ -5,7 +5,7 @@ import { OpenAccount } from "../../../components/OpenAccount";
 
 export function Hero() {
     return (
-        <div className="my-32 flex justify-center gap-32">
+        <div className="my-32 flex gap-32">
             <div className="pb-4">
                 <h1 className="text-8xl font-medium">
                     Banking <br />
@@ -16,7 +16,7 @@ export function Hero() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
                 </p>
 
-                <div className="mt-8 grid grid-cols-2 gap-x-20 gap-y-4">
+                <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4">
                     <IconTextInline text="Instant Transfer" bgColor="bg-primaryLight" iconColor="primary" />
                     <IconTextInline text="Payments worldwide" bgColor="bg-primaryLight" iconColor="primary" />
                     <IconTextInline text="Saving accounts" bgColor="bg-primaryLight" iconColor="primary" />
@@ -26,7 +26,7 @@ export function Hero() {
                 <span className="mt-16 flex gap-8">
                     <OpenAccount />
 
-                    <CompareCards />
+                    <CompareCards name="Compare Cards" />
                 </span>
             </div>
 
