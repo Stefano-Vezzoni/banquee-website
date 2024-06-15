@@ -13,7 +13,7 @@ import { IconTextInline } from "../../../components/IconTextInline";
 
 export function SeemlessInt() {
     return (
-        <div className="space-y-16">
+        <div className="">
             <div className="space-y-4">
                 <div className="flex gap-4">
                     <CompanyLogo src={WebflowLogo} />
@@ -31,7 +31,7 @@ export function SeemlessInt() {
                 </div>
             </div>
 
-            <div className="flex gap-40">
+            <div className="flex gap-40 mt-16 pb-40">
                 <div className="max-w-[560px]">
                     <p className="text-xl font-medium">
                         Tools
@@ -63,6 +63,8 @@ export function SeemlessInt() {
                         iconColor="primary" />
                 </div>
             </div>
+
+            <hr className="w-full" />
         </div>
     );
 }
