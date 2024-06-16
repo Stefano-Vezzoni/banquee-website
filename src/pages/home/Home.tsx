@@ -6,10 +6,11 @@ import { PerfectCard } from "./components/PerfectCard";
 import { SeemlessInt } from "./components/SeemlessInt";
 import { SendAndReceive } from "./components/SendAndReceive";
 import { StayNotified } from "./components/StayNotified";
+import { Testimonials } from "./components/Testimonials";
 
 export function Home() {
     return (
-        <div>
+        <div className="font-medium">
             <Header />
 
             <div className="relative flex flex-col gap-40 mx-36">
@@ -26,6 +27,8 @@ export function Home() {
                 <SeemlessInt />
 
                 <PerfectCard />
+
+                <Testimonials />
             </div>
 
         </div >
