@@ -2,42 +2,26 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 import { TestimonialCard } from "../../../components/TestimonialCard";
 
 export function Testimonials() {
-    //MODIFICAR AS FORMATAÇÕES DE FONT E TEXT PRA DEIXAR MENOR CODIGO DESNECSSÁRIO
-    //MODIFICAR AS FORMATAÇÕES DE FONT E TEXT PRA DEIXAR MENOR CODIGO DESNECSSÁRIO
-    //MODIFICAR AS FORMATAÇÕES DE FONT E TEXT PRA DEIXAR MENOR CODIGO DESNECSSÁRIO
-    //MODIFICAR AS FORMATAÇÕES DE FONT E TEXT PRA DEIXAR MENOR CODIGO DESNECSSÁRIO
-    //MODIFICAR AS FORMATAÇÕES DE FONT E TEXT PRA DEIXAR MENOR CODIGO DESNECSSÁRIO
-    //MODIFICAR AS FORMATAÇÕES DE FONT E TEXT PRA DEIXAR MENOR CODIGO DESNECSSÁRIO
-    //MODIFICAR AS FORMATAÇÕES DE FONT E TEXT PRA DEIXAR MENOR CODIGO DESNECSSÁRIO
-    //MODIFICAR AS FORMATAÇÕES DE FONT E TEXT PRA DEIXAR MENOR CODIGO DESNECSSÁRIO
-    //MODIFICAR AS FORMATAÇÕES DE FONT E TEXT PRA DEIXAR MENOR CODIGO DESNECSSÁRIO
-    //MODIFICAR AS FORMATAÇÕES DE FONT E TEXT PRA DEIXAR MENOR CODIGO DESNECSSÁRIO
-    //MODIFICAR AS FORMATAÇÕES DE FONT E TEXT PRA DEIXAR MENOR CODIGO DESNECSSÁRIO
     return (
-        <div className="text-xl font-medium">
+        <div className="text-xl">
             <div className="flex justify-between">
                 <div className="max-w-[600px]">
-                    <p>
-                        Testimonials
-                    </p>
+                    <p>Testimonials</p>
 
-                    <h2 className="text-6xl mt-4">
-                        People all over the world use banquee.
-                    </h2>
+                    <h2 className="mt-4 text-6xl">People all over the world use banquee.</h2>
                 </div>
-
 
                 <span className="flex items-end">
                     <p className="flex items-center">
-                        <span className="flex items-center justify-center bg-primaryLight p-2 rounded-full mr-4">
-                            <Icon className="text-primary w-6 h-6" icon="material-symbols:star" />
+                        <span className="mr-4 flex items-center justify-center rounded-full bg-primaryLight p-2">
+                            <Icon className="h-6 w-6 text-primary" icon="material-symbols:star" />
                         </span>
                         Rated <span className="mx-1 text-primary">4.8/5</span> from over 1000 users
                     </p>
                 </span>
             </div>
 
-            <div className="flex mt-16 gap-8">
+            <div className="mt-16 flex gap-8">
                 <div className="flex flex-col gap-8">
                     <TestimonialCard
                         title="Sunt qui esse pariatur duis deserunt mollit"
@@ -57,11 +41,9 @@ export function Testimonials() {
                 <div className="flex flex-col gap-8">
                     <TestimonialCard
                         title="At lectus urna duis convallis tellus"
-                        description={
-                            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.
+                        description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.
                             [skip]
-                            In nibh mauris cursus mattis. At lectus urna duis convallis convallis tellus. Enim blandit volutpat maecenas volutpat.`
-                        }
+                            In nibh mauris cursus mattis. At lectus urna duis convallis convallis tellus. Enim blandit volutpat maecenas volutpat.`}
                         author="Jenny Wilson"
                         jobTitle="Nursing Assistant"
                     />

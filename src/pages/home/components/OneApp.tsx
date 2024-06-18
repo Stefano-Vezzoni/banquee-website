@@ -1,18 +1,14 @@
 import { OneAppGridElement } from "./OneAppGridElement";
-import OneAppImage from "../../../assets/OneAppImage.svg"
+import OneAppImage from "../../../assets/OneAppImage.svg";
 
 export function OneApp() {
     return (
         <div className="flex items-start justify-between space-x-32">
             <div>
-                <h1 className="flex flex-col text-mHeading1 leading-tight font-medium">
-                    <span>
-                        One app.
-                    </span>
+                <h1 className="flex flex-col text-mHeading1 leading-tight">
+                    <span>One app.</span>
 
-                    <span className="-mt-4">
-                        One banking.
-                    </span>
+                    <span className="-mt-4">One banking.</span>
                 </h1>
 
                 <div className="mt-16 grid grid-cols-2 gap-8">

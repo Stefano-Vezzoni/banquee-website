@@ -8,9 +8,8 @@ interface ITestimonialCard {
 }
 
 export function TestimonialCard({ title, description, author, jobTitle }: ITestimonialCard) {
-    const markerStartIndex = description.indexOf('[skip]');
-    const markerEndIndex = markerStartIndex + '[skip]'.length - 1;
-
+    const markerStartIndex = description.indexOf("[skip]");
+    const markerEndIndex = markerStartIndex + "[skip]".length - 1;
 
     function beforeSkip() {
         return description.substring(0, markerStartIndex);
@@ -21,7 +20,7 @@ export function TestimonialCard({ title, description, author, jobTitle }: ITesti
     }
 
     return (
-        <div className="border rounded-lg w-96 h-min p-8">
+        <div className="h-min rounded-lg border p-8">
             <span className="flex gap-1 text-primary">
                 <Icon icon="material-symbols:star" />
                 <Icon icon="material-symbols:star" />
@@ -30,9 +29,7 @@ export function TestimonialCard({ title, description, author, jobTitle }: ITesti
                 <Icon icon="material-symbols:star" />
             </span>
 
-            <h3 className="mt-2 text-3xl">
-                {title}
-            </h3>
+            <h3 className="mt-2 text-3xl">{title}</h3>
 
             <p className="mt-4 text-base">
                 {markerStartIndex != -1 ? (
@@ -48,13 +45,9 @@ export function TestimonialCard({ title, description, author, jobTitle }: ITesti
             </p>
 
             <span>
-                <h4 className="mt-6 text-lg">
-                    {author}
-                </h4>
+                <h4 className="mt-6 text-lg">{author}</h4>
 
-                <p className="text-sm text-muted opacity-50">
-                    {jobTitle}
-                </p>
+                <p className="text-sm text-muted opacity-50">{jobTitle}</p>
             </span>
         </div>
     );

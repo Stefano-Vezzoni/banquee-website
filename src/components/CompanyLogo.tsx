@@ -4,7 +4,7 @@ interface ICompanyLogo {
 
 export function CompanyLogo({ src }: ICompanyLogo) {
     return (
-        <div className="p-4 flex justify-center items-center h-[60px] bg-[#F8F8F8] rounded-[10px]">
+        <div className="flex h-[60px] items-center justify-center rounded-[10px] bg-[#F8F8F8] p-4">
             <img src={src} />
         </div>
     );

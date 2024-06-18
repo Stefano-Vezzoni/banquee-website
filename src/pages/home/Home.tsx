@@ -1,5 +1,6 @@
 import { Header } from "../../components/Header";
 import { Hero } from "./components/Hero";
+import { NeedHelp } from "./components/NeedHelp";
 import { OneApp } from "./components/OneApp";
 import { OrganizeYourMoney } from "./components/OrganizeYourMoney";
 import { PerfectCard } from "./components/PerfectCard";
@@ -13,7 +14,7 @@ export function Home() {
         <div className="font-medium">
             <Header />
 
-            <div className="relative flex flex-col gap-40 mx-36">
+            <div className="relative mx-36 flex flex-col gap-40">
                 <Hero />
 
                 <OneApp />
@@ -29,8 +30,9 @@ export function Home() {
                 <PerfectCard />
 
                 <Testimonials />
-            </div>
 
-        </div >
+                <NeedHelp />
+            </div>
+        </div>
     );
 }

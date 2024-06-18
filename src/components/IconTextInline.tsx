@@ -1,4 +1,4 @@
-import { Icon } from '@iconify/react/dist/iconify.js';
+import { Icon } from "@iconify/react/dist/iconify.js";
 
 interface IIconTextInline {
     text: string;
@@ -9,7 +9,7 @@ interface IIconTextInline {
 export function IconTextInline({ text, bgColor, iconColor }: IIconTextInline) {
     return (
         <span className="flex items-center gap-4 text-lg font-medium">
-            <span className={`flex items-center justify-center h-6 w-6 rounded-full ${bgColor}`}>
+            <span className={`flex h-6 w-6 items-center justify-center rounded-full ${bgColor}`}>
                 <Icon className={`text-${iconColor}`} icon="ri:check-fill" width="16" height="16" />
             </span>
 

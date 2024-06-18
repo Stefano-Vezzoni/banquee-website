@@ -1,19 +1,17 @@
-import ThreeCreditCard from "../../../assets/ThreeCreditCards.svg"
+import ThreeCreditCard from "../../../assets/ThreeCreditCards.svg";
 import { CompareCards } from "../../../components/CompareCards";
 import { OpenAccount } from "../../../components/OpenAccount";
 export function PerfectCard() {
     return (
         <div className="flex flex-col items-center justify-center">
-            <p className="text-xl font-medium">
-                Account
-            </p>
+            <p className="text-xl">Account</p>
 
-            <h2 className="mt-2 text-center text-7xl font-medium">
+            <h2 className="mt-2 text-center text-7xl">
                 Perfect card <br />
                 for your needs.
             </h2>
 
-            <p className="mt-4 text-center text-xl font-medium">
+            <p className="mt-4 text-center text-xl">
                 Senectus et netus et malesuada fames ac turpis. <br />
                 Sagittis vitae et leo duis ut diam.
             </p>
