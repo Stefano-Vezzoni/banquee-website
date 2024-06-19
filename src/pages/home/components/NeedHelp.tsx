@@ -3,14 +3,6 @@ import { CompareCards } from "../../../components/CompareCards";
 import { QuestionButton } from "../../../components/QuestionButton";
 
 export function NeedHelp() {
-    //fazer a section lixo do oneapp one bank again
-    //fazer a section lixo do oneapp one bank again
-    //fazer a section lixo do oneapp one bank again
-    //fazer a section lixo do oneapp one bank again
-    //fazer a section lixo do oneapp one bank again
-    //fazer a section lixo do oneapp one bank again
-    //fazer a section lixo do oneapp one bank again
-    //fazer a section lixo do oneapp one bank again
     return (
         <div className="grid grid-cols-2">
             <div className="flex flex-col gap-12 text-lg">

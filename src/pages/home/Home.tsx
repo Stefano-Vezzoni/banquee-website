@@ -2,6 +2,7 @@ import { Header } from "../../components/Header";
 import { Hero } from "./components/Hero";
 import { NeedHelp } from "./components/NeedHelp";
 import { OneApp } from "./components/OneApp";
+import { OneAppSecond } from "./components/OneAppSecond";
 import { OrganizeYourMoney } from "./components/OrganizeYourMoney";
 import { PerfectCard } from "./components/PerfectCard";
 import { SeemlessInt } from "./components/SeemlessInt";
@@ -30,6 +31,8 @@ export function Home() {
                 <PerfectCard />
 
                 <Testimonials />
+
+                <OneAppSecond />
 
                 <NeedHelp />
             </div>
