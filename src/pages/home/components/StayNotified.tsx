@@ -1,6 +1,6 @@
-import { CompareCards } from "../../../components/CompareCards";
 import { IconTextInline } from "../../../components/IconTextInline";
 import { ProductCard } from "../../../components/ProductCard";
+import { TextIconInline } from "../../../components/TextIconInline";
 
 export function StayNotified() {
     return (
@@ -35,7 +35,7 @@ export function StayNotified() {
                 </div>
 
                 <div className="mt-12">
-                    <CompareCards name="Compare Cards" />
+                    <TextIconInline name="Compare Cards" />
                 </div>
             </div>
 

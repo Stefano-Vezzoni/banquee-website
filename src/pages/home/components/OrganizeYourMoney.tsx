@@ -1,5 +1,5 @@
 import { BigProductCard } from "../../../components/BigProductCard";
-import { CompareCards } from "../../../components/CompareCards";
+import { TextIconInline } from "../../../components/TextIconInline";
 
 export function OrganizeYourMoney() {
     return (
@@ -20,7 +20,7 @@ export function OrganizeYourMoney() {
 
                 <div className="relative mt-12 max-w-[1440px]">
                     <div className="absolute right-0 top-0">
-                        <CompareCards name="All Features" />
+                        <TextIconInline name="All Features" />
                     </div>
 
                     <div className="mt-12 flex w-full gap-8">

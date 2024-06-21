@@ -1,4 +1,5 @@
 import { Header } from "../../components/Header";
+import { Blog } from "./components/Blog";
 import { Hero } from "./components/Hero";
 import { NeedHelp } from "./components/NeedHelp";
 import { OneApp } from "./components/OneApp";
@@ -35,6 +36,8 @@ export function Home() {
                 <OneAppSecond />
 
                 <NeedHelp />
+
+                <Blog />
             </div>
         </div>
     );

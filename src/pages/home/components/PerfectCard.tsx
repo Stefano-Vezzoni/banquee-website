@@ -1,6 +1,7 @@
 import ThreeCreditCard from "../../../assets/ThreeCreditCards.svg";
-import { CompareCards } from "../../../components/CompareCards";
 import { OpenAccount } from "../../../components/OpenAccount";
+import { TextIconInline } from "../../../components/TextIconInline";
+
 export function PerfectCard() {
     return (
         <div className="flex flex-col items-center justify-center">
@@ -21,7 +22,7 @@ export function PerfectCard() {
             <span className="mt-14 flex gap-4">
                 <OpenAccount />
 
-                <CompareCards name="Compare Cards" />
+                <TextIconInline name="Compare Cards" />
             </span>
         </div>
     );

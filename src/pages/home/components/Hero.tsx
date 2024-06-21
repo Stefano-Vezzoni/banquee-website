@@ -1,5 +1,5 @@
 import HeroCards from "../../../assets/HeroCards.svg";
-import { CompareCards } from "../../../components/CompareCards";
+import { TextIconInline } from "../../../components/TextIconInline";
 import { IconTextInline } from "../../../components/IconTextInline";
 import { OpenAccount } from "../../../components/OpenAccount";
 
@@ -43,7 +43,7 @@ export function Hero() {
                 <span className="mt-16 flex gap-8">
                     <OpenAccount />
 
-                    <CompareCards name="Compare Cards" />
+                    <TextIconInline name="Compare Cards" />
                 </span>
             </div>
 

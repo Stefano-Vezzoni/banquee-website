@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
-import { CompareCards } from "../../../components/CompareCards";
+import { TextIconInline } from "../../../components/TextIconInline";
 import { QuestionButton } from "../../../components/QuestionButton";
 
 export function NeedHelp() {
@@ -32,7 +32,7 @@ export function NeedHelp() {
                     </div>
                 </div>
 
-                <CompareCards name="Support" />
+                <TextIconInline name="Support" />
             </div>
 
             <div className="flex flex-col gap-8 text-xl">
