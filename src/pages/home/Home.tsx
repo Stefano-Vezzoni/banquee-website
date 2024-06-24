@@ -1,3 +1,4 @@
+import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { Blog } from "./components/Blog";
 import { Hero } from "./components/Hero";
@@ -38,6 +39,8 @@ export function Home() {
                 <NeedHelp />
 
                 <Blog />
+
+                <Footer />
             </div>
         </div>
     );

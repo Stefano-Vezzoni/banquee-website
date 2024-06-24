@@ -15,7 +15,6 @@ export default {
                 primaryLightButton: "#59CBB5",
                 primaryLight: "#E8F2EE",
                 muted: "#1A191E",
-                bgMuted: "#F8F8F8",
 
                 //Organize Your Money Section
                 laptopBg: "#E8F2EE",
