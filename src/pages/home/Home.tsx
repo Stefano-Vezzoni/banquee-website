@@ -5,11 +5,11 @@ import { Hero } from "./components/Hero";
 import { NeedHelp } from "./components/NeedHelp";
 import { OneApp } from "./components/OneApp";
 import { OneAppSecond } from "./components/OneAppSecond";
-import { OrganizeYourMoney } from "./components/OrganizeYourMoney";
-import { PerfectCard } from "./components/PerfectCard";
-import { SeemlessInt } from "./components/SeemlessInt";
+import { SavingAccounts } from "./components/SavingAccounts";
+import { Account } from "./components/Account";
+import { Tools } from "./components/Tools";
 import { SendAndReceive } from "./components/SendAndReceive";
-import { StayNotified } from "./components/StayNotified";
+import { Notifications } from "./components/Notifications";
 import { Testimonials } from "./components/Testimonials";
 
 export function Home() {
@@ -24,13 +24,13 @@ export function Home() {
 
                 <SendAndReceive />
 
-                <OrganizeYourMoney />
+                <SavingAccounts />
 
-                <StayNotified />
+                <Notifications />
 
-                <SeemlessInt />
+                <Tools />
 
-                <PerfectCard />
+                <Account />
 
                 <Testimonials />
 

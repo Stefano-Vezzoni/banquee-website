@@ -11,7 +11,7 @@ import WebflowLogo from "../../../assets/companyLogos/WebflowLogo.svg";
 import ZapierLogo from "../../../assets/companyLogos/ZapierLogo.svg";
 import { IconTextInline } from "../../../components/IconTextInline";
 
-export function SeemlessInt() {
+export function Tools() {
     return (
         <div className="">
             <div className="space-y-4">

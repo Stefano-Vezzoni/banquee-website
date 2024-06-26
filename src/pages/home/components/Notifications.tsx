@@ -2,7 +2,7 @@ import { IconTextInline } from "../../../components/IconTextInline";
 import { ProductCard } from "../../../components/ProductCard";
 import { TextIconInline } from "../../../components/TextIconInline";
 
-export function StayNotified() {
+export function Notifications() {
     return (
         <div className="flex gap-40">
             <div className="max-w-[540px]">

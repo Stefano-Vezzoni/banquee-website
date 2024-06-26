@@ -2,7 +2,7 @@ import ThreeCreditCard from "../../../assets/ThreeCreditCards.svg";
 import { OpenAccount } from "../../../components/OpenAccount";
 import { TextIconInline } from "../../../components/TextIconInline";
 
-export function PerfectCard() {
+export function Account() {
     return (
         <div className="flex flex-col items-center justify-center">
             <p className="text-xl">Account</p>

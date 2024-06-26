@@ -1,7 +1,7 @@
 import { BigProductCard } from "../../../components/BigProductCard";
 import { TextIconInline } from "../../../components/TextIconInline";
 
-export function OrganizeYourMoney() {
+export function SavingAccounts() {
     return (
         <div className="flex flex-col">
             <div className="flex flex-col">
