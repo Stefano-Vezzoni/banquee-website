@@ -1,5 +1,6 @@
 import { Header } from "../../components/Header";
 import { Hero } from "./components/Hero";
+import { Transactions } from "./components/Transactions";
 
 export function Features() {
     return (
@@ -7,6 +8,8 @@ export function Features() {
             <Header />
 
             <Hero />
+
+            <Transactions />
         </div>
     );
 }
