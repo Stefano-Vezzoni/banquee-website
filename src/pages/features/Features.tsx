@@ -1,4 +1,5 @@
 import { Header } from "../../components/Header";
+import { AllInOne } from "./components/AllInOne";
 import { Hero } from "./components/Hero";
 import { Transactions } from "./components/Transactions";
 
@@ -10,6 +11,8 @@ export function Features() {
             <Hero />
 
             <Transactions />
+
+            <AllInOne />
         </div>
     );
 }

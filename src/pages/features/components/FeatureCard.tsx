@@ -2,8 +2,7 @@ import { IconTextInline } from "../../../components/IconTextInline";
 
 interface IFeatureCard {
     subtitle: string;
-    title1: string;
-    title2: string;
+    title: string[];
     description: string;
     appFeatures: string[];
     cardImage: string;
@@ -11,8 +10,7 @@ interface IFeatureCard {
 
 export function FeatureCard({
     subtitle,
-    title1,
-    title2,
+    title,
     description,
     appFeatures,
     cardImage,
@@ -23,9 +21,9 @@ export function FeatureCard({
             <div className="pb-32">
                 <h2 className="mt-10 text-6xl">
                     <p className="text-xl">{subtitle}</p>
-                    <p className="mt-2">{title1}</p>
+                    <p className="mt-2">{title[0]}</p>
 
-                    <p className="-mt-1">{title2}</p>
+                    <p className="-mt-1">{title[1]}</p>
                 </h2>
 
                 <p className="mt-4 max-w-[560px] text-xl">{description}</p>
