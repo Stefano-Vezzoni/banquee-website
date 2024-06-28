@@ -3,12 +3,13 @@ import { ReactNode } from "react";
 interface IAllInOneCard {
     title: string[];
     subtitle: string;
-    children: ReactNode;
+    image?: string;
+    children?: ReactNode;
 }
 
-export function AllInOneCard({ title, subtitle, children }: IAllInOneCard) {
+export function AllInOneCard({ title, subtitle, image, children }: IAllInOneCard) {
     return (
-        <div className="flex flex-col gap-14 rounded-[20px] bg-mutedBg pt-14">
+        <div className="flex h-[515px] flex-col gap-14 overflow-hidden rounded-[20px] bg-mutedBg pt-14">
             <div className="px-14">
                 {title.length > 1 ? (
                     <>
@@ -21,7 +22,13 @@ export function AllInOneCard({ title, subtitle, children }: IAllInOneCard) {
                 <p className="mt-2 text-lg text-muted opacity-50">{subtitle}</p>
             </div>
 
-            <div className="mt-16">{children}</div>
+            {children && <div className="flex justify-center overflow-hidden">{children}</div>}
+
+            {image && (
+                <div className="mt-16 flex justify-center">
+                    <img src={image} className="object-cover" />
+                </div>
+            )}
         </div>
     );
 }

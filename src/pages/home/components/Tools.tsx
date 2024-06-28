@@ -13,7 +13,7 @@ import { IconTextInline } from "../../../components/IconTextInline";
 
 export function Tools() {
     return (
-        <div className="">
+        <div>
             <div className="space-y-4">
                 <div className="flex gap-4">
                     <CompanyLogo src={WebflowLogo} />

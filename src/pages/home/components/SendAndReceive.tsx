@@ -39,13 +39,16 @@ export function SendAndReceive() {
                         subtitle="Macbook"
                         price="999"
                     />
+
                     <ProductCard
                         icon="ri:amazon-fill"
                         title="Amazon"
                         subtitle="Electronics"
                         price="49"
                     />
+
                     <ProductCard icon="pajamas:twitter" title="Twitter" subtitle="Ads" price="29" />
+
                     <ProductCard
                         icon="mdi:microsoft"
                         title="Microsoft"
@@ -53,6 +56,7 @@ export function SendAndReceive() {
                         price="149"
                     />
                     <ProductCard icon="mdi:dropbox" title="Dropbox" subtitle="Cloud" price="14" />
+
                     <ProductCard
                         icon="ic:baseline-paypal"
                         title="Paypal"
