@@ -13,7 +13,7 @@ import { IconTextInline } from "../../../components/IconTextInline";
 
 export function Tools() {
     return (
-        <div>
+        <div className="border-b px-40">
             <div className="space-y-4">
                 <div className="flex gap-4">
                     <CompanyLogo src={WebflowLogo} />
@@ -65,8 +65,6 @@ export function Tools() {
                     />
                 </div>
             </div>
-
-            <hr className="w-full" />
         </div>
     );
 }

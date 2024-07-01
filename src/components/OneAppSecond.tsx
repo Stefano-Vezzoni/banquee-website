@@ -1,10 +1,10 @@
-import { IconTextInline } from "../../../components/IconTextInline";
-import OneAppImage from "../../../assets/OneAppImage.svg";
+import { IconTextInline } from "./IconTextInline";
+import OneAppImage from "../assets/OneAppImage.svg";
 import { Icon } from "@iconify/react/dist/iconify.js";
 
 export function OneAppSecond() {
     return (
-        <div className="relative flex items-start overflow-hidden rounded-[20px] bg-primary px-20 py-24 text-slate-50">
+        <div className="relative mx-40 flex items-start overflow-hidden rounded-[20px] bg-primary px-20 py-24 text-slate-50">
             <div className="flex max-w-[540px] flex-col items-start">
                 <h1 className="flex flex-col text-mHeading1 leading-tight">
                     <h2>One app.</h2>

@@ -1,10 +1,10 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
-import { TextIconInline } from "../../../components/TextIconInline";
-import { QuestionButton } from "../../../components/QuestionButton";
+import { TextIconInline } from "./TextIconInline";
+import { QuestionButton } from "./QuestionButton";
 
 export function NeedHelp() {
     return (
-        <div className="grid grid-cols-2">
+        <div className="mx-40 grid grid-cols-2">
             <div className="flex flex-col gap-12 text-lg">
                 <h2 className="text-6xl">Need help?</h2>
 

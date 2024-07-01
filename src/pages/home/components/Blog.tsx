@@ -6,7 +6,7 @@ import blogImage3 from "../../../assets/blogImage3.svg";
 
 export function Blog() {
     return (
-        <div>
+        <div className="mx-40">
             <div className="flex justify-between">
                 <h2 className="text-[64px]">Blog</h2>
                 <TextIconInline name="All Articles" />

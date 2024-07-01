@@ -5,7 +5,7 @@ import CardBeige from "../../../assets/CardBeige.svg";
 
 export function Accounts() {
     return (
-        <div className="mt-40 flex flex-col items-center justify-center space-y-24">
+        <div className="mx-40 flex flex-col items-center justify-center space-y-24">
             <div className="text-center">
                 <p>Accounts</p>
                 <h2 className="mt-2 text-6xl">Choose your card.</h2>

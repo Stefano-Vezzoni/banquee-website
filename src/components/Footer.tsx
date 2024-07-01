@@ -1,8 +1,7 @@
 export function Footer() {
     return (
-        <div className="mb-12">
-            <hr />
-            <div className="mt-24 flex justify-between">
+        <div className="border-t px-36 pb-12">
+            <div className="mt-24 flex justify-between border-b pb-20">
                 <p className="-mt-1 text-3xl font-bold text-primary hover:text-teal-600">
                     banquee.
                 </p>
@@ -38,10 +37,12 @@ export function Footer() {
                 </div>
             </div>
 
-            <hr className="mt-20" />
-
             <div className="mt-4 flex justify-between text-muted opacity-50">
-                <p>© Made by Pawel Gola - Powered by Webflow</p>
+                <p>
+                    © Made by <span className="text-teal-600">Pawel Gola</span> - Powered by{" "}
+                    <span className="text-teal-600">Webflow</span>
+                </p>
+
                 <span className="flex gap-8">
                     <p>Impressum</p>
                     <p>Datenschutz</p>

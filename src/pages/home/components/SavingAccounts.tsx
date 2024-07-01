@@ -3,7 +3,7 @@ import { TextIconInline } from "../../../components/TextIconInline";
 
 export function SavingAccounts() {
     return (
-        <div className="flex flex-col">
+        <div className="mx-40 flex flex-col">
             <div className="flex flex-col">
                 <div className="flex max-w-[600px] flex-col gap-4">
                     <p className="text-xl">Saving Accounts</p>

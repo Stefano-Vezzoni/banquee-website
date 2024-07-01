@@ -3,7 +3,7 @@ import { TestimonialCard } from "../../../components/TestimonialCard";
 
 export function Testimonials() {
     return (
-        <div className="text-xl">
+        <div className="mx-40 text-xl">
             <div className="flex justify-between">
                 <div className="max-w-[600px]">
                     <p>Testimonials</p>

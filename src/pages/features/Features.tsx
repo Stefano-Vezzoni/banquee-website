@@ -1,4 +1,7 @@
+import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
+import { NeedHelp } from "../../components/NeedHelp";
+import { OneAppSecond } from "../../components/OneAppSecond";
 import { Accounts } from "./components/Accounts";
 import { AllInOne } from "./components/AllInOne";
 import { Hero } from "./components/Hero";
@@ -9,13 +12,21 @@ export function Features() {
         <div className="text-xl font-medium">
             <Header />
 
-            <Hero />
+            <div className="space-y-40">
+                <Hero />
 
-            <Transactions />
+                <Transactions />
 
-            <AllInOne />
+                <AllInOne />
 
-            <Accounts />
+                <Accounts />
+
+                <OneAppSecond />
+
+                <NeedHelp />
+
+                <Footer />
+            </div>
         </div>
     );
 }

@@ -16,7 +16,7 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 export function AllInOne() {
     return (
-        <div className="mx-40 mt-80">
+        <div className="border-t px-40 pt-40">
             <div className="text-center">
                 <h2 className="text-6xl">All in one bank. Really.</h2>
                 <p>

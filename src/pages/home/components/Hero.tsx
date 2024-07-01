@@ -5,7 +5,7 @@ import { OpenAccount } from "../../../components/OpenAccount";
 
 export function Hero() {
     return (
-        <div className="my-32 flex gap-32">
+        <div className="mx-40 my-32 flex gap-32">
             <div className="pb-4">
                 <h1 className="text-8xl">
                     Banking <br />

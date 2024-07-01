@@ -4,7 +4,7 @@ import { TextIconInline } from "../../../components/TextIconInline";
 
 export function Notifications() {
     return (
-        <div className="flex gap-40">
+        <div className="mx-40 flex gap-40">
             <div className="max-w-[540px]">
                 <p className="text-xl">Notifications</p>
 
