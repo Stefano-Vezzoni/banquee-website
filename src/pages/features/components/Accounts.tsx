@@ -1,4 +1,4 @@
-import { CardPlans } from "./CardPlans";
+import { CardPlans } from "../../../components/CardPlans";
 import CardGreen from "../../../assets/CardGreen.svg";
 import CardBlack from "../../../assets/CardBlack.svg";
 import CardBeige from "../../../assets/CardBeige.svg";

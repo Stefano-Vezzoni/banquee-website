@@ -1,6 +1,6 @@
 export function Footer() {
     return (
-        <div className="border-t px-36 pb-12">
+        <div className="border-t px-36 pb-12 text-base">
             <div className="mt-24 flex justify-between border-b pb-20">
                 <p className="-mt-1 text-3xl font-bold text-primary hover:text-teal-600">
                     banquee.
