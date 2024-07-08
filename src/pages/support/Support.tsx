@@ -1,5 +1,7 @@
+import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { StillHaveQuestions } from "../../components/StillHaveQuestions";
+import { FAQ } from "./components/FAQ";
 import { Hero } from "./components/Hero";
 
 export function Support() {
@@ -12,6 +14,10 @@ export function Support() {
             <div className="my-24">
                 <StillHaveQuestions />
             </div>
+
+            <FAQ />
+
+            <Footer />
         </div>
     );
 }

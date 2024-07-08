@@ -2,7 +2,7 @@ import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { Blog } from "./components/Blog";
 import { Hero } from "./components/Hero";
-import { NeedHelp } from "../../components/NeedHelp";
+import { NeedHelp } from "./components/NeedHelp";
 import { OneApp } from "./components/OneApp";
 import { SavingAccounts } from "./components/SavingAccounts";
 import { Account } from "./components/Account";

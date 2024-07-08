@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
-import { TextIconInline } from "./TextIconInline";
-import { QuestionButton } from "./QuestionButton";
+import { TextIconInline } from "../../../components/TextIconInline";
+import { QuestionButton } from "../../../components/QuestionButton";
 
 export function NeedHelp() {
     return (

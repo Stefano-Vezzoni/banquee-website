@@ -1,6 +1,6 @@
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
-import { NeedHelp } from "../../components/NeedHelp";
+import { NeedHelp } from "../home/components/NeedHelp";
 import { OneAppSecond } from "../../components/OneAppSecond";
 import { Accounts } from "./components/Accounts";
 import { AllInOne } from "./components/AllInOne";
