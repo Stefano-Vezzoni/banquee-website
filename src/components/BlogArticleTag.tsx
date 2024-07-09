@@ -4,7 +4,7 @@ interface IBlogArticleTag {
 
 export function BlogArticleTag({ tagName }: IBlogArticleTag) {
     return (
-        <div className="bg-bgMuted flex items-center justify-center rounded-md p-3 text-[13px]">
+        <div className="flex items-center justify-center rounded-md bg-mutedBg px-3 py-2 text-sm">
             {tagName}
         </div>
     );
