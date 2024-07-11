@@ -4,7 +4,7 @@ import featuresCards from "../../../assets/featuresCards.svg";
 
 export function Hero() {
     return (
-        <div className="flex flex-col items-center justify-center bg-primaryLight pt-32">
+        <div className="flex flex-col items-center justify-center bg-primaryLight pt-28">
             <div className="max-w-[460px] text-center">
                 <p>Features</p>
 
