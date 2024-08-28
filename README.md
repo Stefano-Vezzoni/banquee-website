@@ -37,7 +37,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 -   ReactJS
 -   Typescript
 -   Tailwind
--   React Hook Form + Zod
 -   Git Flow
 
 ## 🚀 Como executar
