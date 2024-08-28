@@ -57,9 +57,6 @@ $ npm run dev
 <img src="public/readmeAssets/Home - Ratings.png">
 
 <br>
-<img src="public/readmeAssets/Home - Ratings.png">
-
-<br>
 <img src="public/readmeAssets/Home - Footer.png">
 
 <br>
